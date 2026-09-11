@@ -14,3 +14,7 @@ This project demonstrates Jenkins CI/CD and GitHub integration.
 - Jenkins
 - Git
 - Bash
+
+## Jenkins CI/CD
+
+This change is used to verify automatic Jenkins pipeline triggering through GitHub Webhooks.
