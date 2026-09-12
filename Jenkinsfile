@@ -25,5 +25,13 @@ pipeline {
                 sh './test.sh'
             }
         }
+
+        stage('Validation') {
+            steps {
+                echo 'Running validation checks...'
+                sh 'bash -n app.sh'
+                sh 'bash -n test.sh'
+            }
+        }
     }
 }
