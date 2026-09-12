@@ -15,7 +15,6 @@ pipeline {
                 echo 'Starting build...'
                 sh 'chmod +x app.sh'
                 sh './app.sh'
-                sh 'invalid-command-for-testing'
             }
         }
 
